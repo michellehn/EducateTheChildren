@@ -1,0 +1,16 @@
+//scss file containing colors, fonts, etc
+@import 'variables';
+
+//general scss styles applying to all pages
+@import 'general';
+
+//index.php styles
+@import 'home';
+
+//other page styles
+@import 'about';
+@import 'programs';
+@import 'forms';
+@import 'help';
+@import 'news';
+@import 'donate';

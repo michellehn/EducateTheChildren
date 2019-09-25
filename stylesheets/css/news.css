@@ -1,0 +1,174 @@
+#news-body {
+  background-color: #ECECEC; }
+  #news-body #news-title {
+    padding-top: 60px;
+    width: 110%; }
+
+.news-item {
+  width: 50vw;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .news-item h1, .news-item h2, .news-item h3 {
+    text-align: left;
+    margin: 5px; }
+  .news-item img {
+    width: 100%; }
+  .news-item a {
+    text-decoration: none;
+    color: #295a9f; }
+  @media screen and (max-width: 1200px) {
+    .news-item {
+      width: 84vw;
+      margin: 0 auto;
+      margin-bottom: 25px;
+      margin-top: 25px;
+      padding: 25px 15px; }
+      .news-item p {
+        font-size: 14px;
+        line-height: 25px; } }
+
+#newsletter-signup {
+  background-color: #ffffff;
+  width: 30vw;
+  padding: 50px 10px 45px 10px;
+  float: right;
+  margin-top: 99px;
+  margin-right: 5%;
+  position: absolute;
+  right: 0; }
+  @media screen and (max-width: 1200px) {
+    #newsletter-signup {
+      display: none; } }
+  #newsletter-signup p {
+    line-height: 27px; }
+  #newsletter-signup form {
+    text-align: center; }
+  #newsletter-signup input[type=text] {
+    width: 25vw;
+    height: 47px;
+    padding-left: 13px;
+    border: 1px solid #AEAEAE;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #484848;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 25px; }
+    @media screen and (max-width: 900px) {
+      #newsletter-signup input[type=text] {
+        width: 330px; } }
+    @media screen and (max-width: 768px) {
+      #newsletter-signup input[type=text] {
+        width: 275px;
+        border-radius: 10px; } }
+  #newsletter-signup input[type=submit] {
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    margin-top: 25px; }
+    @media screen and (max-width: 768px) {
+      #newsletter-signup input[type=submit] {
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+        margin-top: 25px; } }
+
+#news-content {
+  margin-left: 5%;
+  width: 50vw;
+  padding-top: 50px;
+  margin-bottom: 62px; }
+  @media screen and (max-width: 1200px) {
+    #news-content {
+      width: 95vw;
+      padding-top: 1px;
+      margin: 0 auto; } }
+
+#news-text {
+  height: 300px; }
+
+#new-news-form {
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 0; }
+  @media screen and (max-width: 1200px) {
+    #new-news-form {
+      margin-top: 30px;
+      margin-bottom: 25px; } }
+
+#news-body {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../../assets/img/forms/news.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.news-body {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../../assets/img/forms/news.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.news-full {
+  width: 85vw;
+  background: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  padding-bottom: 30px; }
+  .news-full h1 {
+    padding-top: 85px;
+    margin-bottom: 0; }
+  .news-full .center-text {
+    text-align: center;
+    font-style: italic; }
+  .news-full .container {
+    padding: 35px 100px 25px 100px; }
+  @media screen and (max-width: 1200px) {
+    .news-full {
+      width: 95vw; }
+      .news-full .container {
+        padding: 3%; }
+      .news-full h1 {
+        padding-top: 53px; } }
+
+.filler {
+  width: 100vw;
+  height: 40px; }
+  @media screen and (max-width: 1200px) {
+    .filler {
+      height: 5px; } }
+
+.back {
+  text-decoration: none;
+  color: #295a9f;
+  float: left;
+  padding-top: 29px;
+  padding-left: 36px;
+  font-size: 15px; }
+  @media screen and (max-width: 1200px) {
+    .back {
+      padding-top: 21px;
+      padding-left: 19px; } }
+
+.extra-img {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px; }
+  .extra-img img {
+    width: 30%;
+    padding: 3px;
+    height: auto; }
+  @media screen and (max-width: 1200px) {
+    .extra-img {
+      padding-bottom: 0; }
+      .extra-img img {
+        width: 92%; } }
+
+@media screen and (max-width: 1200px) {
+  .program-body .news-full .container .container-img {
+    width: 89vw;
+    margin: 0 auto;
+    text-align: center; } }
+
+/*# sourceMappingURL=news.css.map */

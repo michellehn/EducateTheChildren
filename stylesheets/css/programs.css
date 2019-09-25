@@ -1,0 +1,116 @@
+#empowerment #content-1 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/programs/women-2.jpg");
+  background-size: cover;
+  color: #ffffff; }
+  #empowerment #content-1 p {
+    width: 60%;
+    text-align: center;
+    padding-bottom: 85px; }
+    @media screen and (max-width: 768px) {
+      #empowerment #content-1 p {
+        width: 95%;
+        margin-top: 45px;
+        line-height: 30px;
+        padding-bottom: 45px; } }
+
+#education #content-1 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/programs/children.jpg");
+  background-size: cover;
+  color: #ffffff; }
+  #education #content-1 p {
+    width: 60%;
+    text-align: center;
+    padding-bottom: 85px; }
+    @media screen and (max-width: 768px) {
+      #education #content-1 p {
+        width: 95%;
+        margin-top: 45px;
+        line-height: 30px;
+        padding-bottom: 45px; } }
+
+#development #content-1 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/programs/agr.jpg");
+  background-size: cover;
+  color: #ffffff; }
+  #development #content-1 p {
+    width: 60%;
+    text-align: center;
+    padding-bottom: 85px; }
+    @media screen and (max-width: 768px) {
+      #development #content-1 p {
+        width: 95%;
+        margin-top: 45px;
+        line-height: 30px;
+        padding-bottom: 45px; } }
+
+#story #content-1 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/story/story-1.jpg");
+  background-size: cover;
+  color: #ffffff; }
+  #story #content-1 p {
+    width: 60%;
+    text-align: center;
+    padding-bottom: 85px; }
+#story #content-3 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/story/story-4.jpg");
+  background-size: cover;
+  color: #ffffff; }
+  #story #content-3 h2 {
+    text-align: center; }
+  #story #content-3 p {
+    width: 95%;
+    text-align: center;
+    padding-bottom: 0; }
+
+.program-body .container {
+  display: inline-block;
+  padding: 90px 100px 60px 100px;
+  background-color: #ffffff; }
+  @media screen and (max-width: 768px) {
+    .program-body .container {
+      padding: 30px 12px 20px 12px; } }
+  .program-body .container .container-img {
+    width: 28vw; }
+    @media screen and (max-width: 768px) {
+      .program-body .container .container-img {
+        width: 93vw;
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 15px; } }
+  .program-body .container h3 {
+    margin-top: 0; }
+  .program-body .container h2 {
+    margin-bottom: 20px; }
+.program-body .left {
+  text-align: left; }
+  @media screen and (max-width: 768px) {
+    .program-body .left {
+      text-align: center; }
+      .program-body .left p {
+        text-align: left; } }
+  .program-body .left h2 {
+    text-align: left;
+    margin-top: 0; }
+  .program-body .left img {
+    float: right;
+    margin-left: 50px;
+    margin-bottom: 35px; }
+    @media screen and (max-width: 768px) {
+      .program-body .left img {
+        margin: 0 auto; } }
+  .program-body .left h3 {
+    text-align: left; }
+.program-body .right {
+  text-align: left;
+  background-color: #ECECEC; }
+  .program-body .right h2 {
+    text-align: right;
+    margin-top: 0; }
+  .program-body .right img {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 35px; }
+  .program-body .right h3 {
+    text-align: right; }
+
+/*# sourceMappingURL=programs.css.map */

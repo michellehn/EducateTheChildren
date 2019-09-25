@@ -1,0 +1,36 @@
+#people-body .staff-container {
+  margin: 0 auto;
+  text-align: center; }
+#people-body h1 {
+  margin-top: 0; }
+#people-body .person {
+  width: 200px;
+  display: inline-block;
+  margin: 25px;
+  vertical-align: top; }
+  #people-body .person img {
+    width: 100%; }
+  #people-body .person h3 {
+    margin: 0;
+    margin-top: 5px; }
+  #people-body .person p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px; }
+#people-body .container:nth-child(even) {
+  background-color: #ECECEC; }
+#people-body .container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+#approach-body #content-1 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/about/approach-hero.jpg");
+  background-size: cover; }
+#approach-body #content-2 {
+  background-color: #ECECEC; }
+#approach-body #programs-container {
+  text-align: center; }
+
+/*# sourceMappingURL=about.css.map */
